@@ -1,0 +1,74 @@
+/* Highlight important words */
+.highlight {
+    color: rgb(220, 20, 20);
+    font-weight: bold;
+  }
+  
+  /* Section title */
+  .section-title {
+    color: teal;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 3px solid #514545;
+  }
+  
+  /* Existing styles (keep these) */
+  .main-heading {
+    color: navy;
+    font-family: 'Georgia', serif;
+    border-bottom: 2px solid rgb(221, 9, 9);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #intro {
+    color: #555;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px dashed gray;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+  }
+  
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between; /* Or center, depending on how you want them spaced */
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap; /* Allows wrapping if the container is too narrow */
+  }
+  
+  .styled-img {
+    width: 50%;    /* Makes each image take up 45% of the width */
+    height: auto;
+    display: block;
+    border: 5px solid #456;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding doesn't overflow image */
+  }
+  
+  
+      
+  
+  .box {
+    background-color: #fff;
+    border: 2px solid lightgray;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
